@@ -1,0 +1,17 @@
+body{
+    text-align: center;
+}
+label{
+    margin: 8px auto 8px auto;
+    display: block;
+}
+
+input{
+    border-radius: 5px;
+}
+
+button{
+    display: block;
+    margin: 15px auto 15px auto;
+}
+

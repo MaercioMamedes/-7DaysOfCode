@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/reset.css">
+    <link rel="stylesheet" href="/day05-Array/style.css">
+    <title>Dia 05 - Array</title>
+</head>
+
+<body>
+    <header>
+        <h1>Dasafio 7 day of code</h1>
+        <h2>Dia 05 - Array</h2>
+    </header>
+    <main>
+
+        <section class="control-panel">
+            <h2>Lista de compras</h2>
+            <fieldset>
+
+                <label for="id-product">Digite o nome do produto</label>
+                <input type="text" name="product" id="id-product">
+
+                <input type="radio" name="category" id="id-frutas" value="0">
+                <label for="id-frutas">Frutas</label>
+
+                <input type="radio" name="category" id="id-laticinio" value="1">
+                <label for="id-laticinio">Laticíneos</label>
+
+                <input type="radio" name="category" id="id-congelados" value="2">
+                <label for="id-congelados">Congelados</label>
+
+                <input type="radio" name="category" id="id-doces" value="3">
+                <label for="id-doces">Doces</label>
+
+                <button onclick="addProduct()" type="submit">Adicionar</button>
+
+
+            </fieldset>
+        </section>
+
+        <section class="products">
+
+            <ul>
+                <li class="card">
+                    <p>Frutas</p>
+                    <ol class="fruits">
+
+                    </ol>
+
+                </li>
+
+                <li class="card" >
+                    <p>Laticíneos</p>
+                    <ol class="dairy">
+
+                    </ol>
+
+                </li>
+
+                <li class="card" >
+                    <p>Congelados</p>
+                    <ol class="frozen">
+
+                    </ol>
+                </li>
+
+                <li class="card" >
+                    <p>Doces</p>
+                    <ol class="candy">
+
+                    </ol>
+                </li>
+            </ul>
+
+        </section>
+
+    </main>
+
+    <script src="/day05-Array/scripts.js"></script>
+</body>
+
+</html>

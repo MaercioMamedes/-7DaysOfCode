@@ -1,0 +1,68 @@
+body{
+    text-align: center;
+    font-size: 18px;
+}
+
+header{
+    padding: 20px;
+    font-weight: bold;
+}
+
+
+
+header h1 {
+    font-size: 36px;
+    
+}
+
+header h2 {
+    font-size: 28px;
+
+}
+
+input{
+    display: inline-block;
+    margin: 8px auto 8px auto;
+}
+
+input[type=radio]{
+    display: inline-block;
+    margin: 5px;
+}
+
+
+.remove{
+    display: inline-block;
+    color: blue;
+    margin: 5px 3px 5px 8px;
+}
+
+
+button{
+    display: block;
+    margin: 8px auto 8px auto;
+}
+
+.card{
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 1.5%;
+    width: 200px;
+    min-height: 200px;
+    border: solid 1px black;
+    border-radius: 5px;
+    box-shadow: 0px 0px 4px black ;
+    vertical-align: top;
+    position: relative;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+li p{
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px auto 10px auto;
+}

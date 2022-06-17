@@ -1,0 +1,60 @@
+
+.title-card{
+    font-size: 24px;
+    text-align: center;
+}
+
+.problem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.problem figure{
+    text-align: center;
+    margin: 8px auto 8px auto;
+}
+
+.problem img{
+    padding: 16px;
+    border: solid 2px white;
+}
+
+.btn-problem{
+    margin: 16px auto 16px auto;
+    display: inline;
+    padding: 8px;
+    width: 100px;
+    background-color: yellow;
+    border: solid 2px white;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.variable{
+    margin: 8px auto 8px auto;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: antiquewhite;
+    color: black;
+    padding-top: 8px;
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+
+}
+
+.solution ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.solution li{
+    width: 100px;
+    margin: 1.5%;
+    border: solid 2px white;
+    padding: 8px;
+}
